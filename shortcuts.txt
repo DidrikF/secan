@@ -1,0 +1,25 @@
+cmd+p = file navigator
+shift+cmd+a = Run all phpunit tests
+shift+cmd+s = Run single phpunit test
+shift+cmd+d = run all phpunit tests in directory
+shift+cmd+f = run all phpunit tests in file
+
+shift+cmd+i = run all phpunit tests except integration tests (phpunit --exclude-group integration) //NOT ADDED YET
+
+ctrl+g = Jump to line
+cmd+r = funciton list
+shift+cmd+p = command palette
+cmd+shift+r = search the entire project
+
+ctrl+alt+cc = string to camel case
+ctrl+alt+cs = string to snake case
+
+{ "keys": ["super+g"], "command": "goto_definition_scope" },
+{ "keys": ["super+u"], "command": "find_use" },
+{ "keys": ["super+n"], "command": "import_namespace" },
+{ "keys": ["super+o"], "command": "insert_php_constructor_property" }
+
+
+My snippets:
+test
+testcase
