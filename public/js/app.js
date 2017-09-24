@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 107);
+/******/ 	return __webpack_require__(__webpack_require__.s = 110);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -31887,9 +31887,9 @@ const setHttpToken = token => {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuex__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_auth_vuex__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_investorProfile_vuex__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_loading_vuex__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_auth_vuex__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_investorProfile_vuex__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_loading_vuex__ = __webpack_require__(75);
 
 
 
@@ -31982,7 +31982,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(106)
+var listToStyles = __webpack_require__(109)
 
 /*
 type StyleObject = {
@@ -32189,7 +32189,7 @@ function applyToTag (styleElement, obj) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__router__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__router__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__vuex__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_localforage__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_localforage___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_localforage__);
@@ -32202,7 +32202,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(78);
+__webpack_require__(79);
 __webpack_require__(7);
 
 window.Vue = __webpack_require__(4);
@@ -32214,9 +32214,9 @@ __WEBPACK_IMPORTED_MODULE_2_localforage___default.a.config({
     storeName: 'secan'
 });
 
-Vue.component('application', __webpack_require__(90));
-Vue.component('navigation', __webpack_require__(92));
-Vue.component('application-loading-page', __webpack_require__(91));
+Vue.component('application', __webpack_require__(92));
+Vue.component('navigation', __webpack_require__(94));
+Vue.component('application-loading-page', __webpack_require__(93));
 
 let app;
 
@@ -32292,6 +32292,144 @@ Promise.all([__WEBPACK_IMPORTED_MODULE_1__vuex__["a" /* default */].dispatch('au
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BalanceSheet__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BalanceSheet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__BalanceSheet__);
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        balanceSheet: __WEBPACK_IMPORTED_MODULE_0__BalanceSheet___default.a
+    }
+
+    /*
+            data () {
+                return {
+                    ticker: null, 
+                    value: null
+                }
+            },
+            beforeCreate() {
+            console.log('before create Analysis.vue')
+            },
+            created() {
+                console.log('created Analysis.vue')
+                axios.get('/api/analysis').then((response) => {
+                        this.ticker = response.data.ticker
+                        this.value = response.data.value
+                })
+            }, 
+            beforeMount() {
+                console.log('before mount Analysis.vue')
+            },
+            mounted() {
+                console.log('mounted Analysis.vue')
+                
+            },
+            beforeDestroy() {
+                console.log('before destroy Analysis.vue')
+            },
+            destroyed() {
+                console.log('destroyed Analysis.vue')
+            }
+            ,
+            beforeRouteEnter (to, from, next) {
+                // called before the route that renders this component is confirmed.
+                // does NOT have access to `this` component instance,
+                // because it has not been created yet when this guard is called!
+                console.log('Before Route Enter Analysis.vue')
+                next()
+            },
+            beforeRouteUpdate (to, from, next) {
+                // called when the route that renders this component has changed,
+                // but this component is reused in the new route.
+                // For example, for a route with dynamic params /foo/:id, when we
+                // navigate between /foo/1 and /foo/2, the same Foo component instance
+                // will be reused, and this hook will be called when that happens.
+                // has access to `this` component instance.
+                console.log('Before Route Update Analysis.vue')
+                next()
+            },
+            beforeRouteLeave (to, from, next) {
+                // called when the route that renders this component is about to
+                // be navigated away from.
+                // has access to `this` component instance.
+                console.log('Before Route Leave Analysis.vue')
+                next()
+            }
+    */
+
+});
+
+/***/ }),
+/* 42 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -32301,63 +32439,311 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    data() {
-        return {
-            ticker: null,
-            value: null
-        };
-    },
-    beforeCreate() {
-        console.log('before create Analysis.vue');
-    },
-    created() {
-        console.log('created Analysis.vue');
-        axios.get('/api/analysis').then(response => {
-            this.ticker = response.data.ticker;
-            this.value = response.data.value;
-        });
-    },
-    beforeMount() {
-        console.log('before mount Analysis.vue');
-    },
-    mounted() {
-        console.log('mounted Analysis.vue');
-    },
-    beforeDestroy() {
-        console.log('before destroy Analysis.vue');
-    },
-    destroyed() {
-        console.log('destroyed Analysis.vue');
-    },
+	data() {
+		return {
+			denominator: "M",
+			columnWidth: 4,
+			localBalanceSheets: [{
+				//Current Assets:
+				releaseDate: {
+					value: "",
+					error: ""
+				},
+				cashAndEquivalents: {
+					value: 12,
+					error: ""
+				},
+				shortTermInvestments: {
+					value: 12,
+					error: ""
+				},
+				netRecievables: {
+					value: "",
+					error: ""
+				},
+				inventory: {
+					value: "",
+					error: ""
+				},
+				otherCurrentAssets: {
+					value: "",
+					error: ""
+				},
+				currentAssetsSum: {
+					value: "",
+					error: ""
+				},
+				//Current Liabilities 		//Sub-heading
+				accountsPayable: null,
+				currentLongTermDebt: null,
+				otherCurrentLiabilities: null,
+				currentLiabilitiesSum: null,
+				//Stockholders Equity		//Sub-heading
+				miscStockOptionWarrants: null,
+				redeemablePreferredStock: null
+			}, {
+				//Current Assets:
+				releaseDate: {
+					value: "",
+					error: ""
+				},
+				cashAndEquivalents: {
+					value: 12,
+					error: ""
+				},
+				shortTermInvestments: {
+					value: 12,
+					error: ""
+				},
+				netRecievables: {
+					value: "",
+					error: ""
+				},
+				inventory: {
+					value: "",
+					error: ""
+				},
+				otherCurrentAssets: {
+					value: "",
+					error: ""
+				},
+				currentAssetsSum: {
+					value: "",
+					error: ""
+				},
+				//Current Liabilities 		//Sub-heading
+				accountsPayable: null,
+				currentLongTermDebt: null,
+				otherCurrentLiabilities: null,
+				currentLiabilitiesSum: null,
+				//Stockholders Equity		//Sub-heading
+				miscStockOptionWarrants: null,
+				redeemablePreferredStock: null
+			}]
+		};
+	},
+	computed: {},
+	methods: {
+		dropdown(element) {
+			console.log(element);
+		},
+		newBalanceSheet() {
+			this.localBalanceSheets.push({
+				//Current Assets:
+				releaseDate: "", //heading
+				cashAndEquivalents: null,
+				shortTermInvestments: null,
+				netRecievables: null,
+				inventory: null,
+				otherCurrentAssets: null,
+				currentAssetsSum: null,
+				//Current Liabilities 		//Sub-heading
+				accountsPayable: null,
+				currentLongTermDebt: null,
+				otherCurrentLiabilities: null,
+				currentLiabilitiesSum: null,
+				//Stockholders Equity		//Sub-heading
+				miscStockOptionWarrants: null,
+				redeemablePreferredStock: null
+			});
+		},
+		deleteBalanceSheet(index) {
+			this.localBalanceSheets.splice(index, 1);
+		},
+		currentAssetsSumMethod(index) {
+			this.localBalanceSheets[index].currentAssetsSum.value = Number(this.localBalanceSheets[index].cashAndEquivalents.value) + Number(this.localBalanceSheets[index].shortTermInvestments.value);
+			return this.localBalanceSheets[index].currentAssetsSum.value;
+		},
+		denominationChange() {
+			//Should I update the number values to reflect the actual size of the number, or ... ?
+		},
+		validateNumber(numberObject) {
+			if (Number.isNaN(numberObject.value)) {
+				numberObject.error = "Value must be a number";
+				return false;
+			}
+			return true;
+		}
+	}
 
-    beforeRouteEnter(to, from, next) {
-        // called before the route that renders this component is confirmed.
-        // does NOT have access to `this` component instance,
-        // because it has not been created yet when this guard is called!
-        console.log('Before Route Enter Analysis.vue');
-        next();
-    },
-    beforeRouteUpdate(to, from, next) {
-        // called when the route that renders this component has changed,
-        // but this component is reused in the new route.
-        // For example, for a route with dynamic params /foo/:id, when we
-        // navigate between /foo/1 and /foo/2, the same Foo component instance
-        // will be reused, and this hook will be called when that happens.
-        // has access to `this` component instance.
-        console.log('Before Route Update Analysis.vue');
-        next();
-    },
-    beforeRouteLeave(to, from, next) {
-        // called when the route that renders this component is about to
-        // be navigated away from.
-        // has access to `this` component instance.
-        console.log('Before Route Leave Analysis.vue');
-        next();
-    }
+	/* END__END__END
+ 
+ 		<table>
+ 			<tbody v-for="(bs, index) in balanceSheets" style="float: left;">
+ 				<tr>
+ 					<th v-model="bs.releaseDate">{{ bs.releaseDate }}</th>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.cashAndEquivalents">{{ bs.cashAndEquivalents }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.shortTermInvestments">{{ bs.shortTermInvestments }}</td>
+ 				</tr>
+ 				<tr>
+ 					<th>Current Liabilities</th>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.accountsPayable">{{ bs.accountsPayable }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.currentLongTermDebt">{{ bs.currentLongTermDebt }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.otherCurrentLiabilities">{{ bs.otherCurrentLiabilities }}</td>
+ 				</tr>
+ 				<tr>
+ 					<th>Stockholders Equity</th>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.miscStockOptionWarrants">{{ bs.miscStockOptionWarrants }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-model="bs.redeemablePreferredStock">{{ bs.redeemablePreferredStock }}</td>
+ 				</tr>
+ 
+ 			</tbody>
+ 		</table>
+ 
+ 		<table>
+ 			<tbody>
+ 				<tr>
+ 					<td v-for="bs in balanceSheets">{{ bs.releaseDate }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-for="bs in balanceSheets">{{ bs.cashAndEquivalents }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-for="bs in balanceSheets">{{ bs.shortTermInvestments }}</td>
+ 				</tr>
+ 				<tr>
+ 					<th colspan="1">Current Liabilities</th>
+ 				</tr>
+ 				<!-- Grouping  -->
+ 
+ 					<tr>
+ 						<td v-for="bs in balanceSheets">{{ bs.accountsPayable }}</td>
+ 					</tr>
+ 					<tr>
+ 						<td v-for="bs in balanceSheets">{{ bs.currentLongTermDebt }}</td>
+ 					</tr>
+ 					<tr>
+ 						<td v-for="bs in balanceSheets">{{ bs.otherCurrentLiabilities }}</td>
+ 					</tr>
+ 
+ 				<!-- Grouped Item sums -->
+ 				<div>
+ 					<tr>
+ 						<td v-for="bs in balanceSheets">{{ bs.currentLiabilitiesSum }}</td>
+ 					</tr>
+ 				</div>
+ 
+ 				<tr>
+ 					<th colspan="1">Stockholders Equity</th>
+ 				</tr>
+ 				<tr>
+ 					<td v-for="bs in balanceSheets">{{ bs.miscStockOptionWarrants }}</td>
+ 				</tr>
+ 				<tr>
+ 					<td v-for="bs in balanceSheets">{{ bs.redeemablePreferredStock }}</td>
+ 				</tr>
+ 
+ 
+ 			</tbody>
+ 		</table>
+ 				<!--
+ 		<div class="Table">
+ 			<div class="Table__top">
+ 				<button @click="newBalanceSheet">New Balance Sheet</button>
+ 			</div>
+ 			<div class="Table__sidebar">
+ 
+ 			</div>
+ 
+ 			<div v-for="(bs, index) in localBalanceSheets" class="Table__column">
+ 				<p>{{ index }}</p>
+ 				<div class="Collapsable">
+ 					<div class="Table__element" v-if="index === 0">
+ 						<div class="Table__data">
+ 							<button @click="dropdown">Show/hide</button>
+ 						</div>
+ 					</div>
+ 					<div class="Table__element" v-if="index > 0">
+ 						<div class="Table__data"></div>
+ 					</div>
+ 					
+ 					<div class="Table__element">
+ 						<input class="Table__data" v-model="bs.releaseDate">
+ 					</div>
+ 					<div class="Table__element">
+ 						<input class="Table__data" v-model="bs.cashAndEquivalents">
+ 					</div>
+ 					<div class="Table__element">
+ 						<input class="Table__data" v-model="bs.shortTermInvestments">
+ 					</div>
+ 
+ 					<div class="Table__element Collapsable__sum">
+ 						<span class="Table__data">{{ bs.currentAssetsSum }}</span>
+ 					</div>
+ 				</div>
+ 
+ 
+           		<details>
+           			<summary>
+           				Current Assets
+           			</summary>
+ 					<p>
+ 						<div v-for="(bs, index) in localBalanceSheets">
+ 							<div class="Table__element">
+ 								<input class="Table__data" v-model="bs.releaseDate">
+ 							</div>
+ 							<div class="Table__element">
+ 								<input class="Table__data" v-model="bs.cashAndEquivalents">
+ 							</div>
+ 							<div class="Table__element">
+ 								<input class="Table__data" v-model="bs.shortTermInvestments">
+ 							</div>
+ 						</div>
+ 					</p>
+ 				</details>
+ 				<div v-for="(bs, index) in localBalanceSheets" class="Table__element Collapsable__sum">
+ 					<span class="Table__data">{{ currentAssetsSumMethod(index) }}</span>
+ 				</div>
+ 
+ 
+ 
+ 
+ 				<div>
+ 					<div v-if="index === 0">Current Liabilities</div>
+ 				</div>
+ 				<div>
+ 					<div v-model="bs.accountsPayable">{{ bs.accountsPayable }}</div>
+ 				</div>
+ 				<div>
+ 					<div v-model="bs.currentLongTermDebt">{{ bs.currentLongTermDebt }}</div>
+ 				</div>
+ 				<div>
+ 					<div v-model="bs.otherCurrentLiabilities">{{ bs.otherCurrentLiabilities }}</div>
+ 				</div>
+ 				<div>
+ 					<div v-if="index === 0">Stockholders Equity</div>
+ 				</div>
+ 				<div>
+ 					<div v-model="bs.miscStockOptionWarrants">{{ bs.miscStockOptionWarrants }}</div>
+ 				</div>
+ 				<div>
+ 					<div v-model="bs.redeemablePreferredStock">{{ bs.redeemablePreferredStock }}</div>
+ 				</div>
+ 			</div>
+ 
+ 		</div>
+ 		-->
+ 
+ */
+
 });
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32479,7 +32865,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32594,7 +32980,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32734,7 +33120,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 //the store is bound to all child components of the root when passing it in as an option when instantiating the Vue instance, this is enabled by calling Vue.use(Vuex).
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32784,7 +33170,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32843,7 +33229,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32909,7 +33295,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32999,7 +33385,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 });
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33007,17 +33393,17 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-const Analysis = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('analysis', __webpack_require__(83) //is constant appropriate ??
+const Analysis = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('analysis', __webpack_require__(84) //is constant appropriate ??
 );
 /* harmony export (immutable) */ __webpack_exports__["a"] = Analysis;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(50);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ([{
@@ -33030,7 +33416,7 @@ const Analysis = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('analysis
 }]);
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33038,19 +33424,19 @@ const Analysis = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('analysis
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-const Login = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('login', __webpack_require__(84));
+const Login = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('login', __webpack_require__(86));
 /* harmony export (immutable) */ __webpack_exports__["a"] = Login;
 
-const Register = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('register', __webpack_require__(85));
+const Register = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('register', __webpack_require__(87));
 /* harmony export (immutable) */ __webpack_exports__["b"] = Register;
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(52);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ([{
@@ -33072,7 +33458,7 @@ const Register = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('register
 }]);
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33172,7 +33558,7 @@ const clearAuthentication = ({ commit }, token) => {
 */
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33184,14 +33570,14 @@ const user = state => {
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__state__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutations__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__state__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutations__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters__ = __webpack_require__(55);
 
 
 
@@ -33206,7 +33592,7 @@ const user = state => {
 });
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33261,7 +33647,7 @@ export const setInitialApplicationData = ( state, data ) => {
 */
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33278,7 +33664,7 @@ export const setInitialApplicationData = ( state, data ) => {
 });
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33286,16 +33672,16 @@ export const setInitialApplicationData = ( state, data ) => {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-const NotFound = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('not-found', __webpack_require__(86));
+const NotFound = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('not-found', __webpack_require__(88));
 /* harmony export (immutable) */ __webpack_exports__["a"] = NotFound;
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(59);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ([{
@@ -33304,7 +33690,7 @@ const NotFound = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('not-foun
 }]);
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33312,16 +33698,16 @@ const NotFound = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('not-foun
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-const Home = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('home', __webpack_require__(87));
+const Home = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('home', __webpack_require__(89));
 /* harmony export (immutable) */ __webpack_exports__["a"] = Home;
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(61);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ([{
@@ -33335,11 +33721,11 @@ const Home = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('home', __web
 }]);
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routes__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routes__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__routes__["a"]; });
 
 
@@ -33347,7 +33733,7 @@ const Home = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('home', __web
 //It is not intented to only serve as a proxy for the routes...
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33355,16 +33741,16 @@ const Home = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('home', __web
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-const InvestorProfile = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('investor-profile', __webpack_require__(88));
+const InvestorProfile = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('investor-profile', __webpack_require__(90));
 /* harmony export (immutable) */ __webpack_exports__["a"] = InvestorProfile;
 
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(64);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ([{
@@ -33389,14 +33775,46 @@ const InvestorProfile = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('i
 }]);
 
 /***/ }),
-/* 65 */
-/***/ (function(module, __webpack_exports__) {
+/* 66 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Unexpected token, expected , (20:69)\n\n\u001b[0m \u001b[90m 18 | \u001b[39m}\n \u001b[90m 19 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m saveInvestorProfile \u001b[33m=\u001b[39m ({ state }\u001b[33m,\u001b[39m { routeParamUsername }]) \u001b[33m=>\u001b[39m {\n \u001b[90m    | \u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 | \u001b[39m\t\u001b[36mreturn\u001b[39m axios\u001b[33m.\u001b[39mpost(\u001b[32m'/api/'\u001b[39m \u001b[33m+\u001b[39m routeParamUsername \u001b[33m+\u001b[39m \u001b[32m'/investorprofile'\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m 22 | \u001b[39m\t\tinvestorProfile\u001b[33m:\u001b[39m\n \u001b[90m 23 | \u001b[39m\t})\u001b[0m\n");
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_localforage__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_localforage___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_localforage__);
+
+ //import the constant by name setHttpToken, no {} means to import default (which there can only be one of per file btw)
+
+
+const getInvestorProfile = ({ commit, state }, { routeParamUsername }) => {
+	//state is the module's state, not the root state.
+	return axios.get('/api/' + routeParamUsername + '/investorprofile').then(response => {
+		commit('setInvestorProfile', response.data.investor_profile);
+		commit('setInvestingRules', response.data.investing_rules);
+		commit('setInvestingGoals', response.data.investing_goals);
+		commit('setSecuritiesOfInterest', response.data.securities_of_interest);
+		commit('setIndustriesOfInterest', response.data.industriesOfInterest);
+		commit('setInvestingStrategies', response.data.investing_strategies);
+	}).catch(error => {
+		state.errors.record(error.response.data.errors);
+	});
+};
+/* harmony export (immutable) */ __webpack_exports__["getInvestorProfile"] = getInvestorProfile;
+
+
+const saveInvestorProfile = ({ state }, { routeParamUsername }) => {
+	return axios.post('/api/' + routeParamUsername + '/investorprofile', {
+		investorProfile: null
+	}).then(response => {}).catch(error => {});
+};
+/* harmony export (immutable) */ __webpack_exports__["saveInvestorProfile"] = saveInvestorProfile;
+
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports) {
 
 
@@ -33409,14 +33827,14 @@ export const user = (state) => {
 //no, all getters gets imported and applied to the store when newing it up (in the vuex folder index file);
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__state__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutations__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__state__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutations__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__getters__);
 
 
@@ -33432,7 +33850,7 @@ export const user = (state) => {
 });
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33596,7 +34014,7 @@ const deleteInvestingStrategy = (state, index) => {
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33617,7 +34035,7 @@ const deleteInvestingStrategy = (state, index) => {
 });
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33625,16 +34043,16 @@ const deleteInvestingStrategy = (state, index) => {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 
 
-const LoadingPage = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('loading-page', __webpack_require__(89));
+const LoadingPage = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('loading-page', __webpack_require__(91));
 /* harmony export (immutable) */ __webpack_exports__["a"] = LoadingPage;
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(71);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ([{
@@ -33659,7 +34077,7 @@ const LoadingPage = __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('loadi
 }]);
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33687,7 +34105,7 @@ const loadApplication = ({ commit, dispatch }, context) => {
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33700,14 +34118,14 @@ const getAppLoading = state => {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__state__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutations__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__state__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutations__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getters__ = __webpack_require__(74);
 
 
 
@@ -33722,7 +34140,7 @@ const getAppLoading = state => {
 });
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33737,7 +34155,7 @@ const setAppLoading = (state, trueOrFalse) => {
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33751,16 +34169,16 @@ const setAppLoading = (state, trueOrFalse) => {
 });
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__auth_routes__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_routes__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_routes__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__analysis_routes__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__errors_routes__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__investorProfile_routes__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__auth_routes__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_routes__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_routes__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__analysis_routes__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__errors_routes__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__investorProfile_routes__ = __webpack_require__(65);
 //Pull together all routes from the different pages of your application.
 
  //same as ./auth/routes/index.js
@@ -33775,7 +34193,7 @@ const setAppLoading = (state, trueOrFalse) => {
 //the router looks for a match from the beginning to the end. Adding the error routes at the beginning would render 404 every time.
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -33810,7 +34228,7 @@ window.axios.defaults.headers.common = {
 // });
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33848,15 +34266,15 @@ const beforeEach = (to, from, next) => {
 /* harmony default export */ __webpack_exports__["a"] = (beforeEach);
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_index__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__beforeEach__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_index__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__beforeEach__ = __webpack_require__(80);
 
 
 
@@ -33887,28 +34305,28 @@ accidentally leaving the route with unsaved edits.
 */
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(36)();
 exports.push([module.i, "\n.box {\n\tbackground-color: blue;\n\tmargin-top: -20px;\n\twidth: 100%;\n\theight: 100%;\n}\n", ""]);
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(36)();
 exports.push([module.i, "\n.box {\n    border: 2px solid black;\n    padding: 5px;\n}\n[v-cloak] {\n  display: none;\n}\n\n", ""]);
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
   __webpack_require__(41),
   /* template */
-  __webpack_require__(99),
+  __webpack_require__(102),
   /* scopeId */
   null,
   /* cssModules */
@@ -33935,7 +34353,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
@@ -33943,6 +34361,40 @@ var Component = __webpack_require__(2)(
   __webpack_require__(42),
   /* template */
   __webpack_require__(100),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/home/vagrant/Code/secan/resources/assets/js/app/analysis/components/BalanceSheet.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] BalanceSheet.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-44a0f1ba", Component.options)
+  } else {
+    hotAPI.reload("data-v-44a0f1ba", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(2)(
+  /* script */
+  __webpack_require__(43),
+  /* template */
+  __webpack_require__(103),
   /* scopeId */
   null,
   /* cssModules */
@@ -33969,14 +34421,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 85 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
-  __webpack_require__(43),
+  __webpack_require__(44),
   /* template */
-  __webpack_require__(96),
+  __webpack_require__(98),
   /* scopeId */
   null,
   /* cssModules */
@@ -34003,14 +34455,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 86 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
   null,
   /* template */
-  __webpack_require__(95),
+  __webpack_require__(97),
   /* scopeId */
   null,
   /* cssModules */
@@ -34037,14 +34489,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 87 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
   null,
   /* template */
-  __webpack_require__(98),
+  __webpack_require__(101),
   /* scopeId */
   null,
   /* cssModules */
@@ -34071,18 +34523,18 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 88 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(105)
+__webpack_require__(108)
 
 var Component = __webpack_require__(2)(
   /* script */
-  __webpack_require__(44),
+  __webpack_require__(45),
   /* template */
-  __webpack_require__(101),
+  __webpack_require__(104),
   /* scopeId */
   null,
   /* cssModules */
@@ -34109,14 +34561,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 89 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
-  __webpack_require__(45),
+  __webpack_require__(46),
   /* template */
-  __webpack_require__(93),
+  __webpack_require__(95),
   /* scopeId */
   null,
   /* cssModules */
@@ -34143,14 +34595,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 90 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
-  __webpack_require__(46),
+  __webpack_require__(47),
   /* template */
-  __webpack_require__(102),
+  __webpack_require__(105),
   /* scopeId */
   null,
   /* cssModules */
@@ -34177,18 +34629,18 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 91 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(104)
+__webpack_require__(107)
 
 var Component = __webpack_require__(2)(
   /* script */
-  __webpack_require__(47),
+  __webpack_require__(48),
   /* template */
-  __webpack_require__(94),
+  __webpack_require__(96),
   /* scopeId */
   null,
   /* cssModules */
@@ -34215,14 +34667,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 92 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(2)(
   /* script */
-  __webpack_require__(48),
+  __webpack_require__(49),
   /* template */
-  __webpack_require__(97),
+  __webpack_require__(99),
   /* scopeId */
   null,
   /* cssModules */
@@ -34249,7 +34701,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 93 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34264,7 +34716,7 @@ if (false) {
 }
 
 /***/ }),
-/* 94 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34285,7 +34737,7 @@ if (false) {
 }
 
 /***/ }),
-/* 95 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34300,7 +34752,7 @@ if (false) {
 }
 
 /***/ }),
-/* 96 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34488,7 +34940,7 @@ if (false) {
 }
 
 /***/ }),
-/* 97 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34549,7 +35001,172 @@ if (false) {
 }
 
 /***/ }),
-/* 98 */
+/* 100 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('div', {
+    staticClass: "Table"
+  }, [_c('div', {
+    staticClass: "Table__top clear_fix"
+  }, [_c('div', [_c('button', {
+    on: {
+      "click": _vm.newBalanceSheet
+    }
+  }, [_vm._v("New Balance Sheet")]), _vm._v(" "), _c('select', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.denominator),
+      expression: "denominator"
+    }],
+    on: {
+      "change": [function($event) {
+        var $$selectedVal = Array.prototype.filter.call($event.target.options, function(o) {
+          return o.selected
+        }).map(function(o) {
+          var val = "_value" in o ? o._value : o.value;
+          return val
+        });
+        _vm.denominator = $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+      }, _vm.denominationChange]
+    }
+  }, [_c('option', {
+    attrs: {
+      "value": "B"
+    }
+  }, [_vm._v("Billion")]), _vm._v(" "), _c('option', {
+    attrs: {
+      "value": "M"
+    }
+  }, [_vm._v("Million")]), _vm._v(" "), _c('option', {
+    attrs: {
+      "value": "T"
+    }
+  }, [_vm._v("Thousand")])]), _vm._v(" "), _c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.columnWidth),
+      expression: "columnWidth"
+    }],
+    attrs: {
+      "type": "range",
+      "min": "1",
+      "max": "10",
+      "step": "1"
+    },
+    domProps: {
+      "value": (_vm.columnWidth)
+    },
+    on: {
+      "__r": function($event) {
+        _vm.columnWidth = $event.target.value
+      }
+    }
+  })]), _vm._v(" "), _c('div', _vm._l((_vm.localBalanceSheets), function(bs, index) {
+    return _c('div', {
+      staticClass: "Table__column"
+    }, [_c('div', {
+      staticClass: "Table__element"
+    }, [_c('button', {
+      on: {
+        "click": function($event) {
+          _vm.deleteBalanceSheet(index)
+        }
+      }
+    }, [_vm._v("Delete")])])])
+  }))]), _vm._v(" "), _c('div', {
+    staticClass: "Table__sidebar"
+  }), _vm._v(" "), _c('details', {
+    staticClass: "clear_fix"
+  }, [_c('summary', [_vm._v("\n      \t\t\t\tCurrent Assets\n      \t\t\t")]), _vm._v(" "), _c('p'), _vm._l((_vm.localBalanceSheets), function(bs, index) {
+    return _c('div', {
+      staticClass: "Table__column"
+    }, [_c('div', {
+      staticClass: "Table__element"
+    }, [_c('input', {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: (bs.releaseDate.value),
+        expression: "bs.releaseDate.value"
+      }],
+      staticClass: "Table__data",
+      domProps: {
+        "value": (bs.releaseDate.value)
+      },
+      on: {
+        "input": function($event) {
+          if ($event.target.composing) { return; }
+          bs.releaseDate.value = $event.target.value
+        }
+      }
+    })]), _vm._v(" "), _c('div', {
+      staticClass: "Table__element"
+    }, [_c('input', {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: (bs.cashAndEquivalents.value),
+        expression: "bs.cashAndEquivalents.value"
+      }],
+      staticClass: "Table__data",
+      domProps: {
+        "value": (bs.cashAndEquivalents.value)
+      },
+      on: {
+        "input": function($event) {
+          if ($event.target.composing) { return; }
+          bs.cashAndEquivalents.value = $event.target.value
+        }
+      }
+    })]), _vm._v(" "), _c('div', {
+      staticClass: "Table__element"
+    }, [_c('input', {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: (bs.shortTermInvestments.value),
+        expression: "bs.shortTermInvestments.value"
+      }],
+      staticClass: "Table__data",
+      domProps: {
+        "value": (bs.shortTermInvestments.value)
+      },
+      on: {
+        "input": function($event) {
+          if ($event.target.composing) { return; }
+          bs.shortTermInvestments.value = $event.target.value
+        }
+      }
+    })])])
+  }), _vm._v(" "), _c('p')], 2), _vm._v(" "), _c('div', _vm._l((_vm.localBalanceSheets), function(bs, index) {
+    return _c('div', {
+      staticClass: "Table__column"
+    }, [_c('div', {
+      staticClass: "Table__element Collapsable__sum"
+    }, [_c('div', {
+      class: {
+        'Table--validationError': _vm.validateNumber(bs.currentAssetsSum), 'Table__data': true
+      }
+    }, [_vm._v("\t\t" + _vm._s(_vm.currentAssetsSumMethod(index)) + "\n\t\t\t\t\t\t\t"), _vm._v(" "), (bs.currentAssetsSum.error) ? _c('div', {
+      attrs: {
+        "title": "bs.currentAssetsSum.error"
+      }
+    }, [_vm._v("x")]) : _vm._e()])])])
+  }))])])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-44a0f1ba", module.exports)
+  }
+}
+
+/***/ }),
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34564,11 +35181,11 @@ if (false) {
 }
 
 /***/ }),
-/* 99 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('p', [_vm._v("Ticker: " + _vm._s(_vm.ticker))]), _vm._v(" "), _c('p', [_vm._v("Value: " + _vm._s(_vm.value))])])
+  return _c('div', [_c('balance-sheet')], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -34579,7 +35196,7 @@ if (false) {
 }
 
 /***/ }),
-/* 100 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34709,7 +35326,7 @@ if (false) {
 }
 
 /***/ }),
-/* 101 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34928,7 +35545,7 @@ if (false) {
 }
 
 /***/ }),
-/* 102 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -34947,7 +35564,7 @@ if (false) {
 }
 
 /***/ }),
-/* 103 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37418,13 +38035,13 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 104 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(81);
+var content = __webpack_require__(82);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -37444,13 +38061,13 @@ if(false) {
 }
 
 /***/ }),
-/* 105 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(82);
+var content = __webpack_require__(83);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -37470,7 +38087,7 @@ if(false) {
 }
 
 /***/ }),
-/* 106 */
+/* 109 */
 /***/ (function(module, exports) {
 
 /**
@@ -37503,7 +38120,7 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 107 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(38);

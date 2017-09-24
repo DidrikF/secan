@@ -1,0 +1,25 @@
+Balance sheet properties
+
+I want to have as much freedom as possible to create whatever charts I want, as well as how data is entered and displayed.
+
+// 1) Main sections can be folded up
+// 2) Sum/composit numbers are calculated when all need values are present
+3) Graphs that should be drawn from the balance sheet (in one to three clicks)
+	(Add/remove line from each diagram)
+	
+	- Chronological development of each type of data (accross all balance sheets) - time is represented correctly
+	- Common financial graphs (a button for each?)
+	- Select types of data and how they relate to oneanother and draw the result
+
+4) Validatoin errors are show as a red background (hover over to see the error)
+
+
+// 5) Button to add another balance sheet
+6) Button to create a new chart ?
+7) Max limit for number of balance sheets
+// 8) Button to delete a balance sheet
+9) Use date picker and text to specify date
+10) Denominator of the numbers (Billion, Million, Thousand)
+11) slider to adjust width of columns
+
+The same flexibility of Excel, but with fiewer clicks and more beautiful and informative + easy to read charts

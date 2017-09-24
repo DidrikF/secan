@@ -1,12 +1,19 @@
 <template>
 	<div>
-		<p>Ticker: {{ ticker }}</p>
-		<p>Value: {{ value }}</p>
+        <balance-sheet></balance-sheet>
 	</div>
 </template>
 
 <script>
+    import BalanceSheet from './BalanceSheet'
+
     export default {
+        components: {
+            balanceSheet: BalanceSheet
+        }
+    }
+
+/*
         data () {
             return {
                 ticker: null, 
@@ -61,5 +68,8 @@
             console.log('Before Route Leave Analysis.vue')
             next()
         }
-    }
+*/
+
 </script>
+
+

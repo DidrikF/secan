@@ -17,9 +17,9 @@ export const getInvestorProfile = ({ commit, state }, {routeParamUsername}) => {
     })
 }
 
-export const saveInvestorProfile = ({ state }, { routeParamUsername }]) => {
+export const saveInvestorProfile = ({ state }, { routeParamUsername }) => {
 	return axios.post('/api/' + routeParamUsername + '/investorprofile', {
-		investorProfile:
+		investorProfile: null
 	})
 	.then((response) => {
 

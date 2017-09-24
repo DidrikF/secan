@@ -17,9 +17,13 @@ localforage.config({
     storeName: 'secan'
 })
 
-Vue.component('application', require('./components/Application.vue'))
-Vue.component('navigation', require('./components/Navigation.vue'))
-Vue.component('application-loading-page', require('./components/ApplicationLoadingPage.vue'))
+import ApplicationComponent from './components/Application.vue'
+import NavigationComponent from './components/Navigation.vue'
+import ApplicationLoadingPageComponent from './components/ApplicationLoadingPage.vue'
+
+Vue.component('application', ApplicationComponent)
+Vue.component('navigation', NavigationComponent)
+Vue.component('application-loading-page', ApplicationLoadingPageComponent)
 
 let app
 

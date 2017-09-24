@@ -1,4 +1,4 @@
-d<template>
+<template>
 
     <div>
         <h3>Loading the application, please wait.</h3>
