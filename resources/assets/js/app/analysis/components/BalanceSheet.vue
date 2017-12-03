@@ -56,6 +56,7 @@
 
 		</div>
 
+
 	</div>
 
 
@@ -151,6 +152,7 @@ export default {
 	computed: {
 		
 	},
+	
 	methods: {
 		dropdown(element) {
 			console.log(element);
@@ -158,13 +160,34 @@ export default {
 		newBalanceSheet() {
 			this.localBalanceSheets.push({
 				//Current Assets:
-				releaseDate: "", //heading
-				cashAndEquivalents: null,
-				shortTermInvestments: null,
-				netRecievables: null,
-				inventory: null,
-				otherCurrentAssets: null,
-				currentAssetsSum: null,
+				releaseDate: {
+					value: "",
+					error: ""
+				},
+				cashAndEquivalents: {
+					value: 12,
+					error: "",
+				},
+				shortTermInvestments: {
+					value: 12,
+					error: "",
+				},
+				netRecievables: {
+					value: "",
+					error: ""
+				},
+				inventory: {
+					value: "",
+					error: ""
+				},
+				otherCurrentAssets: {
+					value: "",
+					error: ""
+				},
+				currentAssetsSum: {
+					value: "",
+					error: ""
+				},
 				//Current Liabilities 		//Sub-heading
 				accountsPayable: null,
 				currentLongTermDebt: null,
